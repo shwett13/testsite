@@ -25,6 +25,24 @@ header {
     justify-content: center;
 }
 
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0;
+}
+
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 a {
     color: black;
     font-size: 24px;
@@ -42,4 +60,12 @@ ul {
 li {
     list-style-type: none;
     padding-left: 16px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -72,8 +72,12 @@ li {
 
 /* ABOUT SECTION */
 
-#about {
+#about, #discord, #contact {
     padding: 48px 0;
+}
+
+#about {
+    background-color: #f8ffdc;
 }
 
 h2 {
@@ -106,4 +110,26 @@ img {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/* DISCORD SECTION */
+
+#discord {
+    background-color: #cefeff;
+}
+
+
+
+/* CONTACT SECTION */
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }

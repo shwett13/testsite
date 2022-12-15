@@ -162,3 +162,34 @@ footer {
 .footer_link {
     padding: 0 16px;
 }
+
+
+
+/* Small phones, tablets, large smartphones settings */
+
+@media (max-width: 728px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .home_description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_description--button {
+        max-width: 240px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .subheader {
+        text-align: center;
+        font-size: 28px;
+    }
+}
